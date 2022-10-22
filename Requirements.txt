@@ -1,0 +1,8 @@
+$ Welcome to my project
+
+Requirements:
+1. pip install tkinter
+2. pip install pyscreenrec
+3. pip install pillow
+4. pip install messagebox
+5. Python 3.8.10 interpreter recommended
