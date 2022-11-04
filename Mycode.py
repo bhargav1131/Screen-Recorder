@@ -9,7 +9,7 @@ root.geometry("410x808")
 root.title("Chad Screen Recorder")
 root.config(bg="black")
 root.resizable(False, False)
-back = PhotoImage(file="background.png")
+back = PhotoImage(file="/home/bhargav/My_projects/Screen_Recorder/background.png")
 label1 = Label(image=back)
 label1.image = back
 label1.pack()
@@ -51,7 +51,7 @@ Filename.set("            File Name")
 
 rec = pyscreenrec.ScreenRecorder()
 # icon
-image_icon = PhotoImage(file="icon.png")
+image_icon = PhotoImage(file="/home/bhargav/My_projects/Screen_Recorder/icon.png")
 root.iconphoto(False, image_icon)
 
 # ____________________________________________________________________
@@ -76,4 +76,4 @@ def callback():
 # Button(root, text="Demo Button", command=callback, bd=0, bg="#EFF2F0"). place(x=260, y=600)
 
 
-root.mainloop()
+root.mainloop() 
